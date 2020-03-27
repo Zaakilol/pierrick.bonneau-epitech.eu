@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Manager">
+      <UniqueIdentifier>{fda67e2d-ce9b-4c62-b9a3-903e957f69b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Tools">
+      <UniqueIdentifier>{c434fb64-e46d-4008-af23-5afadac09504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager">
+      <UniqueIdentifier>{738e3e5d-15f6-4256-8368-72bffd147a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Tools">
+      <UniqueIdentifier>{6e6170f8-e677-4896-8815-e12058c6ae52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Scene">
+      <UniqueIdentifier>{f1c56469-595c-47b6-8d29-d16e88471d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scene">
+      <UniqueIdentifier>{36efd4df-d02a-440f-875a-b8dafc632a2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Fichiers sources\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Fichiers sources\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimeManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="JoystickController.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScreen.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelection.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Fichiers d%27en-tête\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimeManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="JoystickController.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScreen.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelection.h">
+      <Filter>Fichiers d%27en-tête\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Fichiers d%27en-tête\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Fichiers d%27en-tête\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers d%27en-tête\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
